@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Mensaje de bienvenida en la consola
+  console.log('¡Bienvenido/a! Esta página está acelerada por GitHub Copilot Agent mode.');
   const activitiesList = document.getElementById("activities-list");
   const activitySelect = document.getElementById("activity");
   const signupForm = document.getElementById("signup-form");
